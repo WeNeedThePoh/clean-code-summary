@@ -72,3 +72,20 @@ It's better to take time and think in a good name to your functions, can actuall
 -About horizontal formatting, is the same thing as vertical formatting, there is no number to guide you but a small line is always easier to read and reten information that a longer line. This limits of characters normally depends on the person or the rules that you set with your time but for example for PHP the limit is usually 120 characters. About the line itself, blank spaces are used to separate elements that are not important to each other, so if two elements are together you already know they are related when reading. 
 
 -In general code style is discussed with the team, so all the developers should follow the rules that the team agrees to. That way it's more easy to everyone have the same limits and rules and at end the code is formatting the same way. This is needed because each developer have their own rules.
+
+### Chapter 6: *Objects and Data Structures*
+
+-Is important that each object isn't depending on others objects, you don't want to change one object and then need to replace them in every place where you use them. You need to keep everything independent so you only need to change one thing. It's important to always hide the implementations using abstract interfaces, this way the user can access the data but doesn't know the implementations. 
+
+-When naming implementations be as abstract as possible, do not give way data details in functions names for example. Try to give less information as possible.
+
+-In oriented object language it's easier creating new classes without changing existing functions but in the other hand adding a functions is more hard because you need to change all the classes.
+
+-There is one principle that put all this information together, it's called **Law of Demeter** that says:
+
+    Each unit should have only limited knowledge about other units: only units "closely" related to the current unit
+Basically a module should only know the basics of the object that manipulates. A module can only use the methods of one object but can't use the methods of objects that are returned by the functions. 
+    
+    Each unit should only talk to its friends; don't talk to strangers.
+    Only talk to your immediate friends.
+Conclusion, hide all your objects data and only show methods, this way you can manage your objects and classes more easier.
