@@ -89,3 +89,19 @@ Basically a module should only know the basics of the object that manipulates. A
     Each unit should only talk to its friends; don't talk to strangers.
     Only talk to your immediate friends.
 Conclusion, hide all your objects data and only show methods, this way you can manage your objects and classes more easier.
+
+### Chapter 7: *Error Handling*
+
+-Error Handling is one of those things that all the developers have to do. Can be hard but if something goes wrong you can easily fix it by looking at the error message or error log. Use exceptions to handle our error, but when you do give some context to it so in future you will know the location and source of the error.
+
+-Try to start with try-catch-finally, that way you can define what the user should expect if something goes wrong.
+
+-Handle errors is about writing robust and clean code and try to separate this handling from the main logic of the code. So you can easily reach the main logic of the code or the error handling.
+
+### Chapter 8: *Boundaries*
+
+-When using third-party code you need to be careful and organize the code very well so when you need to fix errors or update code you know where everything is. Because what is worst than losing time to understand all the code from third-parties? The solution to this problem is just create boundaries between your code and third-party code.
+
+-Before losing time reading documentation and try to understand the third-party code is better to write some test, that way will be easier to use the code and understand if there is any error or bugs in the code. Also the test let you figure out what the actually part of the code that you need for your project. When there is an update for the API you are using does test will let you know if there are any changes to the code that you are currently using.
+
+-When using code that is most out of our control we should be careful to protect us from changes in the future that can cost a lot of money. That's way there is boundaries, so you can depend in something you have more control over.
