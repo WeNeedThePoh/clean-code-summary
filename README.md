@@ -53,7 +53,7 @@ It's better to take time and think in a good name to your functions, can actuall
 
 ### Chapter 4: *Comments*
 
--Comments are a bad practice and they will mostly not help you our even worst they will lie to you. If you think you need to comment something you already know that you failed to express what your code actually does. Like Robert C. Martin says: *"The proper use of comments is to compensate for our failure to express ourself in code"*. So before writing any comments think where you can express your code better. A comment with time becomes outdated and can only bring you problems and pain in keeping comments in sync with your code. In general comments are just impossible to maintain. 
+-Comments are a bad practice and they will mostly not help you and in the worst case they will lie to you. If you think you need to comment something you already know that you failed to express what your code actually does. Like Robert C. Martin says: *"The proper use of comments is to compensate for our failure to express ourself in code"*. So before writing any comments think where you can express your code better. A comment with time becomes outdated and can only bring you problems and pain in keeping comments in sync with your code. In general comments are just impossible to maintain. 
 
 -It's a lot better waste more time in keeping the code clear and understandable then writing comments that can mislead you at any time. Sometimes is even better to not write any comments than just write inappropriate comments. One of the good things about comments is that you know that probably your code need some changes, because what motivates you to write comments is bad code.
 
@@ -65,7 +65,7 @@ It's better to take time and think in a good name to your functions, can actuall
 
 ### Chapter 5: *Formatting*
 
--Probably the some details make the difference in the end, like formatting, a space missing can lead to a lot of pain. Formatting code is about communication and what a developers should do best for the business is communicate. Like Robert says: *"Perhaps you thought that “getting it working” was the first order of business for a professional developer. I hope by now, however, that this book has disabused you of that idea"*. The code style and the formatting is so important that can affect future decisions and the maintainability of the code, because you can't change what you don't understand.
+-Probably some tiny details make the difference in the end, like formatting, a space missing can lead to a lot of pain. Formatting code is about communication and what a developers should do best for the business is communicate. Like Robert says: *"Perhaps you thought that “getting it working” was the first order of business for a professional developer. I hope by now, however, that this book has disabused you of that idea"*. The code style and the formatting is so important that can affect future decisions and the maintainability of the code, because you can't change what you don't understand.
 
 -There are some few things that you should consider when you want to make your code formatted, first is vertical vertical formatting. This one is about number of lines that one file have, the overall size of a file. There is not a number where you should guide but the rule is that small files are easier to read than larges files. Still about vertical formatting, try to leave blank lines to separate different groups of thoughts, that way you can understand what is the line of thought for that function. The functions that are related should be near each order if possible and the the most important ones should always be on top.
 
@@ -92,7 +92,7 @@ Conclusion, hide all your objects data and only show methods, this way you can m
 
 ### Chapter 7: *Error Handling*
 
--Error Handling is one of those things that all the developers have to do. Can be hard but if something goes wrong you can easily fix it by looking at the error message or error log. Use exceptions to handle our error, but when you do give some context to it so in future you will know the location and source of the error.
+-Error Handling is one of those things that all the developers have to do. Can be hard but if something goes wrong you can easily fix it by looking at the error message or error log. Use exceptions to handle your errors, but when you do give some context to it so in future you will know the location and source of the error.
 
 -Try to start with try-catch-finally, that way you can define what the user should expect if something goes wrong.
 
@@ -102,13 +102,13 @@ Conclusion, hide all your objects data and only show methods, this way you can m
 
 -When using third-party code you need to be careful and organize the code very well so when you need to fix errors or update code you know where everything is. Because what is worst than losing time to understand all the code from third-parties? The solution to this problem is just create boundaries between your code and third-party code.
 
--Before losing time reading documentation and try to understand the third-party code is better to write some test, that way will be easier to use the code and understand if there is any error or bugs in the code. Also the test let you figure out what the actually part of the code that you need for your project. When there is an update for the API you are using does test will let you know if there are any changes to the code that you are currently using.
+-Before losing time reading documentation and try to understand the third-party code is better to write some tests, that way will be easier to use the code and understand if there is any error or bugs in the code. Also the test let you figure out what the actually part of the code that you need for your project. When there is an update for the API you are using does test will let you know if there are any changes to the code that you are currently using.
 
 -When using code that is most out of our control we should be careful to protect us from changes in the future that can cost a lot of money. That's way there is boundaries, so you can depend in something you have more control over.
 
 ### Chapter 9: *Unit Tests*
 
--**Test Driven-Development** (TDD) is start to be a more efficient way of coding and be able to create manageable and readable code. The good thing about writing tests is not only to make sure the code does what is meant to do but to be easier at any point change any part of the code and still be possible to just run the test and make sure the things you changed didn't break anything else. 
+-**Test Driven-Development** (TDD) is starting to be a more efficient way of coding and be able to create manageable and readable code. The good thing about writing tests is not only to make sure the code does what is meant to do but to be easier at any point change any part of the code and still be possible to just run the test and make sure the things you changed didn't break anything else. 
 
 -There are three laws to follow a Test Driven-Development:
 
@@ -122,7 +122,7 @@ The focus in TDD is always to have in mind a simple cycle where you write a test
 
 -Test code is important as the rest of the code so it's better to keep it clean so your production code can be flexible, maintainable, and reusable. So when you are making changes to the code you can always check by doing the unit test and that way you will be sure that everything is still working as expected.
 
--All test need to be clean, readable, small and say a lot with less expressions. Try to keep every test small and testing one thing at the time. Each test should only test one thing, you can use **Build-Operate-Check** pattern to help you with that. With this pattern you should respect three steps:
+-All tests need to be clean, readable, small and say a lot with less expressions. Try to keep every test small and testing one thing at the time. Each test should only test one thing, you can use **Build-Operate-Check** pattern to help you with that. With this pattern you should respect three steps:
 
      1. Build the test data 
      2. Operate the test data to run the function you are testing
