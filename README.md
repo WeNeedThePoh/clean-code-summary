@@ -105,3 +105,34 @@ Conclusion, hide all your objects data and only show methods, this way you can m
 -Before losing time reading documentation and try to understand the third-party code is better to write some test, that way will be easier to use the code and understand if there is any error or bugs in the code. Also the test let you figure out what the actually part of the code that you need for your project. When there is an update for the API you are using does test will let you know if there are any changes to the code that you are currently using.
 
 -When using code that is most out of our control we should be careful to protect us from changes in the future that can cost a lot of money. That's way there is boundaries, so you can depend in something you have more control over.
+
+### Chapter 9: *Unit Tests*
+
+-**Test Driven-Development** (TDD) is start to be a more efficient way of coding and be able to create manageable and readable code. The good thing about writing tests is not only to make sure the code does what is meant to do but to be easier at any point change any part of the code and still be possible to just run the test and make sure the things you changed didn't break anything else. 
+
+-There are three laws to follow a Test Driven-Development:
+
+   * First Law You may not write production code until you have written a failing unit test. 
+
+   * Second Law You may not write more of a unit test than is sufficient to fail, and not compiling is failing.
+
+   * Third Law You may not write more production code than is sufficient to pass the currently failing test.
+
+The focus in TDD is always to have in mind a simple cycle where you write a test then the code to pass the test. Never write production code before writing a test, this way you will write so many tests every day that in the end your code will have tests to cover every bit of code.
+
+-Test code is important as the rest of the code so it's better to keep it clean so your production code can be flexible, maintainable, and reusable. So when you are making changes to the code you can always check by doing the unit test and that way you will be sure that everything is still working as expected.
+
+-All test need to be clean, readable, small and say a lot with less expressions. Try to keep every test small and testing one thing at the time. Each test should only test one thing, you can use **Build-Operate-Check** pattern to help you with that. With this pattern you should respect three steps:
+
+   * Build the test data 
+   * Operate the test data to run the function you are testing
+   * Check if the results are what you expected
+
+
+-There are five rules that you should follow to have clean test code, **F.I.R.S.T**:
+	
+   * **Fast** Test need to be fast so you can do it more often, if they take to long you will start doing test less often and then bugs will start to emerge.
+   * **Independent** Every test should be independent, they should not depend on other test because if somehow one test fails then others will fail too. 
+   * **Repeatable** Your tests should be repeatable in any environment, can be test environment, production environment, QA environment or even offline.
+   * **Self-Validating** Tests should have a boolean output, a test can pass or can fail the test. You shouldn't search for a result on a log file. 
+   * **Timely** Write test before production code, will be more easier to test the code because you are writing production for a specific test that already exists.
