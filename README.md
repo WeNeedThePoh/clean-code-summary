@@ -19,7 +19,7 @@
 * **Expresses all the design ideas that are in the system**
 * **Minimizes the number of entities such as classes, methods, functions, and the like.**
 
--The boy scout rule applies to clean code, so it's not enough writing good code but you need to maintain it and keep it clean too.
+-**The boy scout rule** applies to clean code, so it's not enough writing good code but you need to maintain it and keep it clean too.
 
     Leave the campground cleaner than you found it. (The boy scout rule)
 As Robert says *"If we all checked-in our code a little cleaner than when we checked it out, the code simply could not rot"*.
@@ -124,9 +124,9 @@ The focus in TDD is always to have in mind a simple cycle where you write a test
 
 -All test need to be clean, readable, small and say a lot with less expressions. Try to keep every test small and testing one thing at the time. Each test should only test one thing, you can use **Build-Operate-Check** pattern to help you with that. With this pattern you should respect three steps:
 
-   * Build the test data 
-   * Operate the test data to run the function you are testing
-   * Check if the results are what you expected
+     1. Build the test data 
+     2. Operate the test data to run the function you are testing
+     3. Check if the results are what you expected
 
 
 -There are five rules that you should follow to have clean test code, **F.I.R.S.T**:
