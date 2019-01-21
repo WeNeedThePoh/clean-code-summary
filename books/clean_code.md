@@ -1,4 +1,4 @@
-# Clean Code Summary
+# Clean Code: A Handbook of Agile Software Craftsmanship Summary
 
 [Check out the book!](https://www.goodreads.com/book/show/3735293-clean-code)
 
