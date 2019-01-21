@@ -1,5 +1,8 @@
 # Clean Code Summary
-[Clean code](https://www.safaribooksonline.com/library/view/clean-code/9780136083238/) by Robert C. Martin
+
+[Check out the book!](https://www.goodreads.com/book/show/3735293-clean-code)
+
+**Author:** Robert C. Martin
 
 ### Chapter 1: *Clean code*
 
