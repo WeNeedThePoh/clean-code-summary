@@ -2,4 +2,5 @@
 
 [Check out the book!](https://www.goodreads.com/book/show/875983.How_to_Win_Friends_Influence_People)
 
-**Author:** Dale Carnegie
+**Author:** Dale Carnegie </br>
+**Rating:** _Not rated yet_

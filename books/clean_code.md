@@ -2,7 +2,9 @@
 
 [Check out the book!](https://www.goodreads.com/book/show/3735293-clean-code)
 
-**Author:** Robert C. Martin
+**Author:** Robert C. Martin </br>
+**Rating:** ★★★★★
+
 
 ### Chapter 1: *Clean code*
 

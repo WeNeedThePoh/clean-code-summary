@@ -2,4 +2,5 @@
 
 [Check out the book!](https://www.goodreads.com/book/show/10631.Sam_Walton)
 
-**Author:** Sam Walton
+**Author:** Sam Walton </br>
+**Rating:** ★★★★
