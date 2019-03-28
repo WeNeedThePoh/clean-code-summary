@@ -2,8 +2,9 @@
 
 ### Books
 
-- [American Icon by Bryce G. Hoffman](books/american_idol.md)
-- [Clean code by Robert C. Martin](books/clean_code.md)
-- [Sam Walton: Made In America by Sam Walton](books/sam_walton.md)
+- [American Icon](books/american_idol.md) by Bryce G. Hoffman
+- [Clean code](books/clean_code.md) by Robert C. Martin
+- [How to Win Friends & Influence People](books/how_to_win_friends.md) by Dane Carnegie
+- [Sam Walton: Made In America](books/sam_walton.md) by Sam Walton
 
 ### Articles
